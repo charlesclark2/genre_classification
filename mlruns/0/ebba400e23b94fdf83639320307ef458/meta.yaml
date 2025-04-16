@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/ebba400e23b94fdf83639320307ef458/artifacts
+end_time: 1744807747564
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ebba400e23b94fdf83639320307ef458
+run_name: sassy-shrimp-511
+run_uuid: ebba400e23b94fdf83639320307ef458
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744807723614
+status: 3
+tags: []
+user_id: charlesclark

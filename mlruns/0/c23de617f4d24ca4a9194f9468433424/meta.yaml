@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/c23de617f4d24ca4a9194f9468433424/artifacts
+end_time: 1744807723595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c23de617f4d24ca4a9194f9468433424
+run_name: dashing-steed-692
+run_uuid: c23de617f4d24ca4a9194f9468433424
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744807709281
+status: 3
+tags: []
+user_id: charlesclark

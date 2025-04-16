@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/47786f4e4a43437faa2c66528e1811a9/artifacts
+end_time: 1744807709262
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47786f4e4a43437faa2c66528e1811a9
+run_name: orderly-roo-322
+run_uuid: 47786f4e4a43437faa2c66528e1811a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744807698725
+status: 3
+tags: []
+user_id: charlesclark
