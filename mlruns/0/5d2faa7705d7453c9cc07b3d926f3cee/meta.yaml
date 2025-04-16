@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/5d2faa7705d7453c9cc07b3d926f3cee/artifacts
+end_time: 1744807159893
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d2faa7705d7453c9cc07b3d926f3cee
+run_name: calm-wolf-932
+run_uuid: 5d2faa7705d7453c9cc07b3d926f3cee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744807095991
+status: 3
+tags: []
+user_id: charlesclark

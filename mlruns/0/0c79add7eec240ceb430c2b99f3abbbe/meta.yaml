@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/0c79add7eec240ceb430c2b99f3abbbe/artifacts
+end_time: 1744807023431
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0c79add7eec240ceb430c2b99f3abbbe
+run_name: judicious-auk-130
+run_uuid: 0c79add7eec240ceb430c2b99f3abbbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744807012995
+status: 3
+tags: []
+user_id: charlesclark

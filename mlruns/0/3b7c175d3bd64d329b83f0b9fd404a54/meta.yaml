@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/3b7c175d3bd64d329b83f0b9fd404a54/artifacts
+end_time: 1744806520469
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3b7c175d3bd64d329b83f0b9fd404a54
+run_name: indecisive-cow-13
+run_uuid: 3b7c175d3bd64d329b83f0b9fd404a54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744806442623
+status: 4
+tags: []
+user_id: charlesclark

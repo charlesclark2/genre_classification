@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/f1a651e8a725409795fe99c353e36e5d/artifacts
+end_time: 1744806808619
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1a651e8a725409795fe99c353e36e5d
+run_name: fun-yak-224
+run_uuid: f1a651e8a725409795fe99c353e36e5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744806795229
+status: 3
+tags: []
+user_id: charlesclark

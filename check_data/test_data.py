@@ -110,11 +110,17 @@ def test_kolmogorov_smirnov(data, ks_alpha):
     alpha_prime = 1 - (1 - ks_alpha)**(1 / len(columns))
 
     for col in columns:
+        s1 = sample1[col].dropna()
+        s2 = sample2[col].dropna()
 
-        ts, p_value = scipy.stats.ks_2samp(sample1[col], sample2[col])
+        if len(s1) < 2 or len(s2) < 2: 
+            print(f"Skipping {col}: not enough data")
+            continue
+        # Use the 2-sample KS test (scipy.stats.ks_2sample) on the column
+        # col
+        ts, p_value = scipy.stats.ks_2samp(s1, s2, alternative='two-sided')
 
-        # NOTE: as always, the p-value should be interpreted as the probability of
-        # obtaining a test statistic (TS) equal or more extreme that the one we got
-        # by chance, when the null hypothesis is true. If this probability is not
-        # large enough, this dataset should be looked at carefully, hence we fail
+        # Add an assertion so that the test fails if p_value > alpha_prime
+        # YOUR CODE HERE
+        print(f"col {col}, type: {type(p_value)}")
         assert p_value > alpha_prime

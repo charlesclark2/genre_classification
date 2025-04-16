@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/d2479ccdf1754cf697d6f093f5baae92/artifacts
+end_time: 1744806215962
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d2479ccdf1754cf697d6f093f5baae92
+run_name: fearless-ape-554
+run_uuid: d2479ccdf1754cf697d6f093f5baae92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744806189071
+status: 4
+tags: []
+user_id: charlesclark

@@ -1,0 +1,194 @@
+2025-04-16 07:34:27,879 INFO    StreamThr :72478 [internal.py:wandb_internal():86] W&B internal server running at pid: 72478, started at: 2025-04-16 07:34:27.878416
+2025-04-16 07:34:27,882 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: status
+2025-04-16 07:34:27,884 INFO    WriterThread:72478 [datastore.py:open_for_write():87] open: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/run-xvuc85yp.wandb
+2025-04-16 07:34:27,885 DEBUG   SenderThread:72478 [sender.py:send():378] send: header
+2025-04-16 07:34:27,899 DEBUG   SenderThread:72478 [sender.py:send():378] send: run
+2025-04-16 07:34:28,319 INFO    SenderThread:72478 [dir_watcher.py:__init__():211] watching files in: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files
+2025-04-16 07:34:28,319 INFO    SenderThread:72478 [sender.py:_start_run_threads():1099] run started: xvuc85yp with start time 1744806867.880301
+2025-04-16 07:34:28,330 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: check_version
+2025-04-16 07:34:28,331 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: check_version
+2025-04-16 07:34:28,423 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: run_start
+2025-04-16 07:34:28,431 DEBUG   HandlerThread:72478 [system_info.py:__init__():26] System info init
+2025-04-16 07:34:28,431 DEBUG   HandlerThread:72478 [system_info.py:__init__():41] System info init done
+2025-04-16 07:34:28,431 INFO    HandlerThread:72478 [system_monitor.py:start():194] Starting system monitor
+2025-04-16 07:34:28,432 INFO    SystemMonitor:72478 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-04-16 07:34:28,432 INFO    HandlerThread:72478 [system_monitor.py:probe():214] Collecting system info
+2025-04-16 07:34:28,432 INFO    SystemMonitor:72478 [interfaces.py:start():190] Started cpu monitoring
+2025-04-16 07:34:28,433 INFO    SystemMonitor:72478 [interfaces.py:start():190] Started disk monitoring
+2025-04-16 07:34:28,434 DEBUG   HandlerThread:72478 [system_info.py:probe():150] Probing system
+2025-04-16 07:34:28,437 INFO    SystemMonitor:72478 [interfaces.py:start():190] Started gpuapple monitoring
+2025-04-16 07:34:28,438 INFO    SystemMonitor:72478 [interfaces.py:start():190] Started memory monitoring
+2025-04-16 07:34:28,438 INFO    SystemMonitor:72478 [interfaces.py:start():190] Started network monitoring
+2025-04-16 07:34:28,442 DEBUG   HandlerThread:72478 [system_info.py:_probe_git():135] Probing git
+2025-04-16 07:34:28,456 DEBUG   HandlerThread:72478 [system_info.py:_probe_git():143] Probing git done
+2025-04-16 07:34:28,456 DEBUG   HandlerThread:72478 [system_info.py:probe():198] Probing system done
+2025-04-16 07:34:28,456 DEBUG   HandlerThread:72478 [system_monitor.py:probe():223] {'os': 'macOS-14.3.1-arm64-arm-64bit', 'python': '3.10.17', 'heartbeatAt': '2025-04-16T12:34:28.437328', 'startedAt': '2025-04-16T12:34:27.868306', 'docker': None, 'cuda': None, 'args': ('--input_artifact', 'raw_data.parquet:latest', '--artifact_name', 'preprocessed_data.csv', '--artifact_type', 'preprocessed_data', '--artifact_description', 'Data with preprocessing applied'), 'state': 'running', 'program': '/Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/run.py', 'codePathLocal': 'run.py', 'codePath': 'preprocess/run.py', 'git': {'remote': 'https://github.com/charlesclark2/genre_classification.git', 'commit': '758d4b0181355ec9d2d63b70236ec85b6dfcb886'}, 'email': None, 'root': '/Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification', 'host': 'Charless-MacBook-Pro.local', 'username': 'charlesclark', 'executable': '/Users/charlesclark/anaconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/bin/python', 'cpu_count': 11, 'cpu_count_logical': 11, 'cpu_freq': {'current': 4056, 'min': 696, 'max': 4056}, 'cpu_freq_per_core': [{'current': 4056, 'min': 696, 'max': 4056}], 'disk': {'/': {'total': 460.4317207336426, 'used': 18.975582122802734}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 18.0}}
+2025-04-16 07:34:28,456 INFO    HandlerThread:72478 [system_monitor.py:probe():224] Finished collecting system info
+2025-04-16 07:34:28,456 INFO    HandlerThread:72478 [system_monitor.py:probe():227] Publishing system info
+2025-04-16 07:34:28,457 DEBUG   HandlerThread:72478 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-04-16 07:34:28,853 DEBUG   HandlerThread:72478 [system_info.py:_save_conda():219] Saving conda packages done
+2025-04-16 07:34:28,853 INFO    HandlerThread:72478 [system_monitor.py:probe():229] Finished publishing system info
+2025-04-16 07:34:28,855 DEBUG   SenderThread:72478 [sender.py:send():378] send: files
+2025-04-16 07:34:28,855 INFO    SenderThread:72478 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-04-16 07:34:28,871 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: python_packages
+2025-04-16 07:34:28,871 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: python_packages
+2025-04-16 07:34:28,871 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: stop_status
+2025-04-16 07:34:28,871 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: stop_status
+2025-04-16 07:34:28,872 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-16 07:34:29,000 DEBUG   SenderThread:72478 [sender.py:send():378] send: telemetry
+2025-04-16 07:34:29,276 DEBUG   SenderThread:72478 [sender.py:send():378] send: use_artifact
+2025-04-16 07:34:29,327 INFO    Thread-12 :72478 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/conda-environment.yaml
+2025-04-16 07:34:29,327 INFO    Thread-12 :72478 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/wandb-metadata.json
+2025-04-16 07:34:29,328 INFO    Thread-12 :72478 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/output.log
+2025-04-16 07:34:29,328 INFO    Thread-12 :72478 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/requirements.txt
+2025-04-16 07:34:29,331 INFO    wandb-upload_0:72478 [upload_job.py:push():131] Uploaded file /var/folders/88/q8wq3ss94k3bvmkq1j1f_j0w0000gn/T/tmpghcan0_zwandb/ujuanihh-wandb-metadata.json
+2025-04-16 07:34:29,922 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: log_artifact
+2025-04-16 07:34:29,922 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: log_artifact
+2025-04-16 07:34:30,928 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-16 07:34:31,334 INFO    Thread-12 :72478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/output.log
+2025-04-16 07:34:31,351 INFO    wandb-upload_0:72478 [upload_job.py:push():89] Uploaded file /Users/charlesclark/Library/Application Support/wandb/artifacts/staging/tmpgksd_117
+2025-04-16 07:34:31,980 INFO    SenderThread:72478 [sender.py:send_request_log_artifact():1431] logged artifact preprocessed_data.csv - {'id': 'QXJ0aWZhY3Q6MTY2MDQyOTY4MQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxMzg5OTE5Mg==', 'latestArtifact': None}}
+2025-04-16 07:34:31,980 DEBUG   SenderThread:72478 [sender.py:send():378] send: exit
+2025-04-16 07:34:31,980 INFO    SenderThread:72478 [sender.py:send_exit():585] handling exit code: 0
+2025-04-16 07:34:31,980 INFO    SenderThread:72478 [sender.py:send_exit():587] handling runtime: 1
+2025-04-16 07:34:31,980 INFO    SenderThread:72478 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-04-16 07:34:31,981 INFO    SenderThread:72478 [sender.py:send_exit():593] send defer
+2025-04-16 07:34:31,981 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: poll_exit
+2025-04-16 07:34:31,981 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:31,981 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 0
+2025-04-16 07:34:31,981 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:31,981 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-04-16 07:34:31,981 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 1
+2025-04-16 07:34:31,981 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:31,981 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 1
+2025-04-16 07:34:31,981 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:31,981 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-04-16 07:34:31,981 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 2
+2025-04-16 07:34:31,981 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:31,981 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 2
+2025-04-16 07:34:31,981 INFO    HandlerThread:72478 [system_monitor.py:finish():203] Stopping system monitor
+2025-04-16 07:34:31,981 DEBUG   SystemMonitor:72478 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-04-16 07:34:31,981 DEBUG   SystemMonitor:72478 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-04-16 07:34:31,981 DEBUG   SystemMonitor:72478 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-04-16 07:34:31,981 INFO    HandlerThread:72478 [interfaces.py:finish():202] Joined cpu monitor
+2025-04-16 07:34:31,982 INFO    HandlerThread:72478 [interfaces.py:finish():202] Joined disk monitor
+2025-04-16 07:34:32,072 INFO    HandlerThread:72478 [interfaces.py:finish():202] Joined gpuapple monitor
+2025-04-16 07:34:32,072 INFO    HandlerThread:72478 [interfaces.py:finish():202] Joined memory monitor
+2025-04-16 07:34:32,072 INFO    HandlerThread:72478 [interfaces.py:finish():202] Joined network monitor
+2025-04-16 07:34:32,072 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:32,072 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-04-16 07:34:32,072 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 3
+2025-04-16 07:34:32,072 DEBUG   SenderThread:72478 [sender.py:send():378] send: telemetry
+2025-04-16 07:34:32,072 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:32,072 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 3
+2025-04-16 07:34:32,072 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:32,072 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-04-16 07:34:32,072 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 4
+2025-04-16 07:34:32,073 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:32,073 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 4
+2025-04-16 07:34:32,073 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:32,073 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-04-16 07:34:32,073 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 5
+2025-04-16 07:34:32,073 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:32,073 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 5
+2025-04-16 07:34:32,073 DEBUG   SenderThread:72478 [sender.py:send():378] send: summary
+2025-04-16 07:34:32,073 INFO    SenderThread:72478 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-04-16 07:34:32,073 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:32,073 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-04-16 07:34:32,073 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 6
+2025-04-16 07:34:32,073 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:32,073 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 6
+2025-04-16 07:34:32,073 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:32,073 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-04-16 07:34:32,075 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: status_report
+2025-04-16 07:34:32,183 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 7
+2025-04-16 07:34:32,183 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:32,183 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 7
+2025-04-16 07:34:32,184 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:32,184 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-04-16 07:34:32,340 INFO    Thread-12 :72478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/config.yaml
+2025-04-16 07:34:32,341 INFO    Thread-12 :72478 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/wandb-summary.json
+2025-04-16 07:34:32,932 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-16 07:34:33,020 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 8
+2025-04-16 07:34:33,021 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: poll_exit
+2025-04-16 07:34:33,021 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:33,022 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 8
+2025-04-16 07:34:33,022 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:33,022 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-04-16 07:34:33,022 INFO    SenderThread:72478 [job_builder.py:build():298] Attempting to build job artifact
+2025-04-16 07:34:33,023 INFO    SenderThread:72478 [job_builder.py:_get_source_type():428] is repo sourced job
+2025-04-16 07:34:33,028 INFO    SenderThread:72478 [job_builder.py:build():404] adding wandb-job metadata file
+2025-04-16 07:34:33,032 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 9
+2025-04-16 07:34:33,032 DEBUG   SenderThread:72478 [sender.py:send():378] send: artifact
+2025-04-16 07:34:33,033 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:33,036 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 9
+2025-04-16 07:34:33,326 INFO    SenderThread:72478 [sender.py:send_artifact():1443] sent artifact job-https___github.com_charlesclark2_genre_classification.git_preprocess_run.py - {'id': 'QXJ0aWZhY3Q6MTY2MDM5NzI2Mw==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxMzg3NDk1MQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTY2MDM5NzI2Mw==', 'versionIndex': 0}}}
+2025-04-16 07:34:33,326 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:33,327 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-04-16 07:34:33,327 INFO    SenderThread:72478 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-04-16 07:34:33,346 INFO    Thread-12 :72478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/output.log
+2025-04-16 07:34:33,347 INFO    SenderThread:72478 [dir_watcher.py:finish():388] scan: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files
+2025-04-16 07:34:33,348 INFO    SenderThread:72478 [dir_watcher.py:finish():402] scan save: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/requirements.txt requirements.txt
+2025-04-16 07:34:33,348 INFO    SenderThread:72478 [dir_watcher.py:finish():402] scan save: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/output.log output.log
+2025-04-16 07:34:33,351 INFO    SenderThread:72478 [dir_watcher.py:finish():402] scan save: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/config.yaml config.yaml
+2025-04-16 07:34:33,353 INFO    SenderThread:72478 [dir_watcher.py:finish():402] scan save: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/wandb-summary.json wandb-summary.json
+2025-04-16 07:34:33,356 INFO    SenderThread:72478 [dir_watcher.py:finish():402] scan save: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/conda-environment.yaml conda-environment.yaml
+2025-04-16 07:34:33,359 INFO    SenderThread:72478 [dir_watcher.py:finish():402] scan save: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/wandb-metadata.json wandb-metadata.json
+2025-04-16 07:34:33,359 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 10
+2025-04-16 07:34:33,361 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:33,361 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 10
+2025-04-16 07:34:33,362 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:33,362 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-04-16 07:34:33,362 INFO    SenderThread:72478 [file_pusher.py:finish():172] shutting down file pusher
+2025-04-16 07:34:33,616 INFO    wandb-upload_0:72478 [upload_job.py:push():131] Uploaded file /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/requirements.txt
+2025-04-16 07:34:33,701 INFO    wandb-upload_3:72478 [upload_job.py:push():131] Uploaded file /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/wandb-summary.json
+2025-04-16 07:34:33,727 INFO    wandb-upload_1:72478 [upload_job.py:push():131] Uploaded file /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/output.log
+2025-04-16 07:34:33,771 INFO    wandb-upload_4:72478 [upload_job.py:push():131] Uploaded file /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/conda-environment.yaml
+2025-04-16 07:34:33,814 INFO    wandb-upload_2:72478 [upload_job.py:push():131] Uploaded file /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/files/config.yaml
+2025-04-16 07:34:33,933 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-16 07:34:33,934 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: poll_exit
+2025-04-16 07:34:34,019 INFO    Thread-11 (_thread_body):72478 [sender.py:transition_state():613] send defer: 11
+2025-04-16 07:34:34,020 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:34,020 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 11
+2025-04-16 07:34:34,021 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:34,021 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-04-16 07:34:34,021 INFO    SenderThread:72478 [file_pusher.py:join():178] waiting for file pusher
+2025-04-16 07:34:34,021 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 12
+2025-04-16 07:34:34,022 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:34,022 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 12
+2025-04-16 07:34:34,022 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:34,022 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-04-16 07:34:34,022 INFO    SenderThread:72478 [file_stream.py:finish():595] file stream finish called
+2025-04-16 07:34:34,115 INFO    SenderThread:72478 [file_stream.py:finish():599] file stream finish is done
+2025-04-16 07:34:34,115 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 13
+2025-04-16 07:34:34,115 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:34,116 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 13
+2025-04-16 07:34:34,116 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:34,116 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-04-16 07:34:34,117 INFO    SenderThread:72478 [sender.py:transition_state():613] send defer: 14
+2025-04-16 07:34:34,117 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: defer
+2025-04-16 07:34:34,117 DEBUG   SenderThread:72478 [sender.py:send():378] send: final
+2025-04-16 07:34:34,117 INFO    HandlerThread:72478 [handler.py:handle_request_defer():172] handle defer: 14
+2025-04-16 07:34:34,117 DEBUG   SenderThread:72478 [sender.py:send():378] send: footer
+2025-04-16 07:34:34,118 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: defer
+2025-04-16 07:34:34,118 INFO    SenderThread:72478 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-04-16 07:34:34,118 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-16 07:34:34,119 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: poll_exit
+2025-04-16 07:34:34,119 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: poll_exit
+2025-04-16 07:34:34,120 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: poll_exit
+2025-04-16 07:34:34,120 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: server_info
+2025-04-16 07:34:34,120 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: get_summary
+2025-04-16 07:34:34,121 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: server_info
+2025-04-16 07:34:34,121 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: sampled_history
+2025-04-16 07:34:34,124 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: internal_messages
+2025-04-16 07:34:34,125 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: job_info
+2025-04-16 07:34:34,251 DEBUG   SenderThread:72478 [sender.py:send_request():405] send_request: job_info
+2025-04-16 07:34:34,252 INFO    MainThread:72478 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-04-16 07:34:34,252 INFO    MainThread:72478 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-04-16 07:34:34,252 INFO    MainThread:72478 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2025-04-16 07:34:34,253 DEBUG   HandlerThread:72478 [handler.py:handle_request():146] handle_request: shutdown
+2025-04-16 07:34:34,254 INFO    HandlerThread:72478 [handler.py:finish():869] shutting down handler
+2025-04-16 07:34:35,130 INFO    WriterThread:72478 [datastore.py:close():296] close: /Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/wandb/run-20250416_073427-xvuc85yp/run-xvuc85yp.wandb
+2025-04-16 07:34:35,257 INFO    SenderThread:72478 [sender.py:finish():1521] shutting down sender
+2025-04-16 07:34:35,257 INFO    SenderThread:72478 [file_pusher.py:finish():172] shutting down file pusher
+2025-04-16 07:34:35,257 INFO    SenderThread:72478 [file_pusher.py:join():178] waiting for file pusher

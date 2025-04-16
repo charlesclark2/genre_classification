@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/bbbd34f72c8b48948b45477a5157a588/artifacts
+end_time: 1744806071201
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bbbd34f72c8b48948b45477a5157a588
+run_name: defiant-hog-205
+run_uuid: bbbd34f72c8b48948b45477a5157a588
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744806069240
+status: 4
+tags: []
+user_id: charlesclark

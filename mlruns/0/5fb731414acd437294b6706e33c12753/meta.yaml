@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/5fb731414acd437294b6706e33c12753/artifacts
+end_time: 1744806817430
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5fb731414acd437294b6706e33c12753
+run_name: dazzling-deer-155
+run_uuid: 5fb731414acd437294b6706e33c12753
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744806793337
+status: 4
+tags: []
+user_id: charlesclark

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/de7e10d2ab9140da8b2657d4b1df3cc7/artifacts
+end_time: 1744807198165
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de7e10d2ab9140da8b2657d4b1df3cc7
+run_name: efficient-stoat-515
+run_uuid: de7e10d2ab9140da8b2657d4b1df3cc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744807011475
+status: 4
+tags: []
+user_id: charlesclark

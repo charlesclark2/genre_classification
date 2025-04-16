@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/ce12658f3cf941edb11fd3b85a2b670c/artifacts
+end_time: 1744806985361
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce12658f3cf941edb11fd3b85a2b670c
+run_name: able-hog-605
+run_uuid: ce12658f3cf941edb11fd3b85a2b670c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744806976690
+status: 3
+tags: []
+user_id: charlesclark

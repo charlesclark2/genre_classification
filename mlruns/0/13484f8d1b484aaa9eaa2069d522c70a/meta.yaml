@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/13484f8d1b484aaa9eaa2069d522c70a/artifacts
+end_time: 1744805364110
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 13484f8d1b484aaa9eaa2069d522c70a
+run_name: clean-jay-79
+run_uuid: 13484f8d1b484aaa9eaa2069d522c70a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744805332967
+status: 4
+tags: []
+user_id: charlesclark

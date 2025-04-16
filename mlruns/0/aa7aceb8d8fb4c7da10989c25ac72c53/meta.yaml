@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/aa7aceb8d8fb4c7da10989c25ac72c53/artifacts
+end_time: 1744807198022
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa7aceb8d8fb4c7da10989c25ac72c53
+run_name: popular-wasp-594
+run_uuid: aa7aceb8d8fb4c7da10989c25ac72c53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744807159910
+status: 4
+tags: []
+user_id: charlesclark

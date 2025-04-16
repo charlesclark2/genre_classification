@@ -1,0 +1,19 @@
+
+2025-04-16 07:28:30,727 Downloading artifact
+Traceback (most recent call last):
+  File "/Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/run.py", line 80, in <module>
+    go(args)
+  File "/Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/preprocess/run.py", line 22, in go
+    df = pd.read_parquet(artifact_path)
+  File "/Users/charlesclark/anaconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/lib/python3.10/site-packages/pandas/io/parquet.py", line 667, in read_parquet
+    return impl.read(
+  File "/Users/charlesclark/anaconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/lib/python3.10/site-packages/pandas/io/parquet.py", line 274, in read
+    pa_table = self.api.parquet.read_table(
+  File "/Users/charlesclark/anaconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/lib/python3.10/site-packages/pyarrow/parquet/core.py", line 2956, in read_table
+    dataset = _ParquetDatasetV2(
+  File "/Users/charlesclark/anaconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/lib/python3.10/site-packages/pyarrow/parquet/core.py", line 2496, in __init__
+    [fragment], schema=schema or fragment.physical_schema,
+  File "pyarrow/_dataset.pyx", line 1358, in pyarrow._dataset.Fragment.physical_schema.__get__
+  File "pyarrow/error.pxi", line 154, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 91, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/aa8d9de6105140e7862a18e9a57dceb9/artifacts
+end_time: 1744805591683
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa8d9de6105140e7862a18e9a57dceb9
+run_name: bedecked-panda-4
+run_uuid: aa8d9de6105140e7862a18e9a57dceb9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744805545009
+status: 4
+tags: []
+user_id: charlesclark

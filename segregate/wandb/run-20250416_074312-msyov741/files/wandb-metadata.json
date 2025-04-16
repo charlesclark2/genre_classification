@@ -1,0 +1,62 @@
+{
+    "os": "macOS-14.3.1-arm64-arm-64bit",
+    "python": "3.10.17",
+    "heartbeatAt": "2025-04-16T12:43:12.915234",
+    "startedAt": "2025-04-16T12:43:12.542871",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/segregate/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "segregate/run.py",
+    "git": {
+        "remote": "https://github.com/charlesclark2/genre_classification.git",
+        "commit": "758d4b0181355ec9d2d63b70236ec85b6dfcb886"
+    },
+    "email": null,
+    "root": "/Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification",
+    "host": "Charless-MacBook-Pro.local",
+    "username": "charlesclark",
+    "executable": "/Users/charlesclark/anaconda3/envs/mlflow-f9ba271db3d11ecbef8779ccec5d3db3d87fa2a0/bin/python",
+    "cpu_count": 11,
+    "cpu_count_logical": 11,
+    "cpu_freq": {
+        "current": 4056,
+        "min": 696,
+        "max": 4056
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4056,
+            "min": 696,
+            "max": 4056
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 18.975582122802734
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 18.0
+    }
+}

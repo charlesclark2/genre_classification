@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/charlesclark/Documents/WGU/machine_learning_devops/devops_repos/genre_classification/mlruns/0/92c67ecb312b4b899f2966b1fcc1e3ef/artifacts
+end_time: 1744806000024
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92c67ecb312b4b899f2966b1fcc1e3ef
+run_name: bald-stag-123
+run_uuid: 92c67ecb312b4b899f2966b1fcc1e3ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744805998249
+status: 4
+tags: []
+user_id: charlesclark
